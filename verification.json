@@ -1,0 +1,136 @@
+[
+ {
+  "label": "Conversion factors verified",
+  "date": "2026-11-06",
+  "pages": [
+   "convert/*.html",
+   "convert/*/*.html"
+  ],
+  "except": [
+   "convert/index.html",
+   "convert/awg-to-mm2.html",
+   "convert/mm2-to-awg.html"
+  ],
+  "detail": "Every factor was checked against the sources above with exact arithmetic in an independent audit; automated tests hold each one to 1 part in 10<sup>12</sup>."
+ },
+ {
+  "label": "Data checked against the CDA Copper Tube Handbook tables",
+  "date": "2026-11-07",
+  "pages": [
+   "cheatsheets/copper-pipe-sizes.html"
+  ],
+  "detail": "Every OD, wall and ID value on this page matches the tables (automated test)."
+ },
+ {
+  "label": "Table checked against NBS Handbook H28 (1957), Table VII.2",
+  "date": "2026-11-07",
+  "pages": [
+   "cheatsheets/npt-pipe-threads.html"
+  ],
+  "detail": "TPI, pitch, OD, E0, E1, L1 and L2 match the handbook (three E1 values corrected to the handbook's figures); the ASME B1.20.1 cross-check was not repeated."
+ },
+ {
+  "label": "Exposure limits checked against NIOSH 98-126 and OSHA 29 CFR 1910.95",
+  "date": "2026-11-07",
+  "pages": [
+   "cheatsheets/decibel-reference.html"
+  ],
+  "detail": "Corrected where they differed. The typical source levels and the WHO hospital values were not checked."
+ },
+ {
+  "label": "Checked against BIPM (SI Brochure, ITS-90) and USDA FSIS",
+  "date": "2026-11-07",
+  "pages": [
+   "cheatsheets/temperature-reference.html"
+  ],
+  "detail": "Absolute zero, metal melting points and food-safety temperatures; °F/°C pairs recomputed. Comfort ranges and industry STP conventions were not checked."
+ },
+ {
+  "label": "US volumes checked against NIST Handbook 44 (2026) and 21 CFR 101.9",
+  "date": "2026-11-07",
+  "pages": [
+   "cheatsheets/cooking-conversions.html"
+  ],
+  "detail": "Cups, spoons, fluid ounces, pints, quarts and gallons, and the 240 mL nutrition-labeling cup. Gas marks and the 250 mL metric cup have no official source and were not checked."
+ },
+ {
+  "label": "Checked against IAPWS R7-97(2012) and the U.S. Standard Atmosphere, 1976",
+  "date": "2026-11-07",
+  "pages": [
+   "calculators/boiling-point-water.html"
+  ],
+  "detail": "The saturation equation reproduces the official IAPWS verification values; the altitude formula and constants match the 1976 standard."
+ },
+ {
+  "label": "Constants checked against NIST CODATA 2022 and the BIPM SI Brochure",
+  "date": "2026-11-07",
+  "pages": [
+   "calculators/ideal-gas-law.html"
+  ],
+  "detail": "The gas constant and the molar volumes on this page."
+ },
+ {
+  "label": "Checked against NIST Handbook 44 (2026), the UK Weights and Measures Act 1985 and NIST's copy of the Tanaka water-density formula",
+  "date": "2026-11-07",
+  "pages": [
+   "calculators/water-weight.html"
+  ],
+  "detail": "Unit definitions, the density formula and every number in the tables and answers."
+ },
+ {
+  "label": "Inch definition and examples checked against NIST Handbook 44 (2026)",
+  "date": "2026-11-07",
+  "pages": [
+   "calculators/feet-inches.html"
+  ],
+  "detail": "The height chart and all examples on this page."
+ },
+ {
+  "label": "R-value unit factor checked against NIST SP 811",
+  "date": "2026-11-07",
+  "pages": [
+   "calculators/heat-loss.html"
+  ],
+  "detail": "Only the imperial-to-metric R-value factor. The R-values and ASHRAE/IECC figures were not checked."
+ },
+ {
+  "label": "Checked against the National Weather Service wind chill index",
+  "date": "2026-11-07",
+  "pages": [
+   "calculators/wind-chill.html"
+  ],
+  "detail": "Formula, limits and every cell of the °F chart; frostbite thresholds against NWS Milwaukee/Sullivan."
+ },
+ {
+  "label": "Slope limits checked against the 2010 ADA Standards",
+  "date": "2026-11-07",
+  "pages": [
+   "calculators/slope-grade.html"
+  ],
+  "detail": "Sections 106.5, 403.3 and 405.2, and the grade, angle and ratio math."
+ },
+ {
+  "label": "Declinations checked against NOAA GML solar position equations",
+  "date": "2026-11-07",
+  "pages": [
+   "calculators/solar-panel-angle.html"
+  ],
+  "detail": "All 12 monthly values; the latitude ± 15° tilt rules against an NREL primer. Tracker gains and other percentages were not checked."
+ },
+ {
+  "label": "International ¼-inch rule checked against Michigan and Massachusetts law and the USDA Forest Service Log Scaling Handbook",
+  "date": "2026-11-07",
+  "pages": [
+   "calculators/log-board-feet.html"
+  ],
+  "detail": "Formula, Decimal C rounding and four worked examples. The Doyle and Scribner formulas themselves were not checked."
+ },
+ {
+  "label": "Checked against the 2006 International Fuel Gas Code (ICC)",
+  "date": "2026-11-07",
+  "pages": [
+   "calculators/gas-pipe-sizing.html"
+  ],
+  "detail": "Cr values, pipe inside diameters and the capacity tables (results are kept at or below Table 402.4(2)). The current IFGC edition could not be read."
+ }
+]

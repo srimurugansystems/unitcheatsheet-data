@@ -1,0 +1,564 @@
+[
+ {
+  "id": "motor-circuit",
+  "title": "Wire a motor or heater circuit",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/convert/kw-to-hp.html",
+    "why": "Get the rating in the unit you have"
+   },
+   {
+    "url": "https://unitcheatsheet.com/calculators/ohms-law.html",
+    "why": "Current from watts and volts"
+   },
+   {
+    "url": "https://unitcheatsheet.com/calculators/wire-gauge-for-amps.html",
+    "why": "Wire size for that current"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/awg-wire-gauge.html",
+    "why": "Diameter, area and ampacity by gauge"
+   },
+   {
+    "url": "https://unitcheatsheet.com/guides/awg-vs-metric-wire-sizing.html",
+    "why": "Metric mm² equivalents"
+   },
+   {
+    "url": "https://voltdropcalc.com/",
+    "why": "Check the drop on a long run",
+    "site": "voltdropcalc.com"
+   }
+  ]
+ },
+ {
+  "id": "metric-wire",
+  "title": "Match AWG and metric wire",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/convert/awg-to-mm2.html",
+    "why": "Gauge to cross-section"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/mm2-to-awg.html",
+    "why": "Cross-section to the nearest gauge"
+   },
+   {
+    "url": "https://unitcheatsheet.com/guides/awg-vs-metric-wire-sizing.html",
+    "why": "Why the sizes never line up exactly"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/awg-wire-gauge.html",
+    "why": "The full gauge chart"
+   }
+  ]
+ },
+ {
+  "id": "tap-hole",
+  "title": "Drill and tap a threaded hole",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/tap-drill-sizes.html",
+    "why": "Tap drill for the thread"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/drill-bit-sizes.html",
+    "why": "Number, letter and metric drill sizes"
+   },
+   {
+    "url": "https://unitcheatsheet.com/calculators/drill-bit-for-screw.html",
+    "why": "Clearance hole for the mating screw"
+   },
+   {
+    "url": "https://unitcheatsheet.com/calculators/machining-rpm.html",
+    "why": "Spindle speed for the drill"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/mm-to-in.html",
+    "why": "Convert drill sizes"
+   }
+  ]
+ },
+ {
+  "id": "bolted-joint",
+  "title": "Tighten a bolted joint",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/socket-wrench-sizes.html",
+    "why": "Socket for the bolt head"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/bolt-torque.html",
+    "why": "Torque by size and grade"
+   },
+   {
+    "url": "https://unitcheatsheet.com/calculators/bolt-torque.html",
+    "why": "Torque for your bolt and lubrication"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/nm-to-ft-lb.html",
+    "why": "Set the wrench in its unit"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/astm-steel-grades.html",
+    "why": "Strength of the steel"
+   }
+  ]
+ },
+ {
+  "id": "water-pipe",
+  "title": "Size a water or air pipe",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/guides/pipe-sizing-explained.html",
+    "why": "How nominal pipe sizes work"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/pipe-sizes.html",
+    "why": "Steel pipe OD, wall and ID"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/copper-pipe-sizes.html",
+    "why": "Copper tube Type K, L and M"
+   },
+   {
+    "url": "https://unitcheatsheet.com/calculators/pipe-pressure-drop.html",
+    "why": "Pressure loss along the run"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/psi-to-bar.html",
+    "why": "Convert the pressure"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/npt-pipe-threads.html",
+    "why": "Thread the fittings"
+   }
+  ]
+ },
+ {
+  "id": "gas-line",
+  "title": "Size a gas line",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/convert/btu-per-h-to-kw.html",
+    "why": "Total the appliance ratings"
+   },
+   {
+    "url": "https://unitcheatsheet.com/calculators/gas-pipe-sizing.html",
+    "why": "Pipe size for the load and length"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/pipe-sizes.html",
+    "why": "Schedule 40 dimensions"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/npt-pipe-threads.html",
+    "why": "Thread the joints"
+   }
+  ]
+ },
+ {
+  "id": "room-hvac",
+  "title": "Heat or cool a room",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/calculators/heat-loss.html",
+    "why": "Heat loss through walls and windows"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/btu-per-h-to-kw.html",
+    "why": "BTU/h and kW"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/ton-to-kw.html",
+    "why": "Tons of cooling and kW"
+   },
+   {
+    "url": "https://unitcheatsheet.com/calculators/duct-sizing.html",
+    "why": "Duct size for the airflow"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/hvac-duct-sizing.html",
+    "why": "Duct size chart"
+   },
+   {
+    "url": "https://actonnagecalc.com/",
+    "why": "Air conditioner size for the room",
+    "site": "actonnagecalc.com"
+   }
+  ]
+ },
+ {
+  "id": "pressure",
+  "title": "Read and convert pressure",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/guides/why-pressure-has-so-many-units.html",
+    "why": "psi, bar, kPa, inHg: what each is for"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/pressure-reference.html",
+    "why": "Common pressures side by side"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/psi-to-bar.html",
+    "why": "psi and bar"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/inhg-to-mbar.html",
+    "why": "Barometer readings"
+   },
+   {
+    "url": "https://unitcheatsheet.com/calculators/boiling-point-water.html",
+    "why": "Boiling point at that pressure"
+   }
+  ]
+ },
+ {
+  "id": "concrete",
+  "title": "Pour a concrete slab",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/calculators/concrete-volume.html",
+    "why": "Volume of the slab"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/ft3-to-m3.html",
+    "why": "Cubic feet and cubic meters"
+   },
+   {
+    "url": "https://cubicyardage.com/",
+    "why": "Bags and ready-mix loads",
+    "site": "cubicyardage.com"
+   }
+  ]
+ },
+ {
+  "id": "framing",
+  "title": "Build a ramp, deck or stair",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/calculators/slope-grade.html",
+    "why": "Slope, angle and ADA limits"
+   },
+   {
+    "url": "https://unitcheatsheet.com/calculators/feet-inches.html",
+    "why": "Lengths in feet, inches and cm"
+   },
+   {
+    "url": "https://unitcheatsheet.com/calculators/beam-load-span.html",
+    "why": "Can the joist or beam carry it?"
+   },
+   {
+    "url": "https://unitcheatsheet.com/calculators/board-feet.html",
+    "why": "Lumber to order"
+   },
+   {
+    "url": "https://staircalculators.net/",
+    "why": "Risers, treads and stringers",
+    "site": "staircalculators.net"
+   }
+  ]
+ },
+ {
+  "id": "lumber",
+  "title": "Buy timber from logs",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/calculators/log-board-feet.html",
+    "why": "Board feet in a log"
+   },
+   {
+    "url": "https://unitcheatsheet.com/calculators/board-feet.html",
+    "why": "Board feet in sawn lumber"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/ft-to-m.html",
+    "why": "Lengths in meters"
+   }
+  ]
+ },
+ {
+  "id": "solar",
+  "title": "Plan a solar setup",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/calculators/solar-panel-angle.html",
+    "why": "Tilt the panels"
+   },
+   {
+    "url": "https://solarbatterybankcalc.com/",
+    "why": "Size the battery and array",
+    "site": "solarbatterybankcalc.com"
+   },
+   {
+    "url": "https://unitcheatsheet.com/calculators/wire-gauge-for-amps.html",
+    "why": "Wire for the charge current"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/awg-wire-gauge.html",
+    "why": "Gauge chart"
+   }
+  ]
+ },
+ {
+  "id": "led",
+  "title": "Pick resistors for an LED or sensor",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/resistor-color-codes.html",
+    "why": "Read through-hole resistors"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/smd-resistor-codes.html",
+    "why": "Read SMD codes"
+   },
+   {
+    "url": "https://unitcheatsheet.com/calculators/led-resistor.html",
+    "why": "Series resistor for an LED"
+   },
+   {
+    "url": "https://unitcheatsheet.com/calculators/ohms-law.html",
+    "why": "Volts, amps, ohms, watts"
+   },
+   {
+    "url": "https://unitcheatsheet.com/calculators/voltage-divider.html",
+    "why": "Scale a voltage for a sensor input"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/capacitor-markings.html",
+    "why": "Read capacitor codes"
+   }
+  ]
+ },
+ {
+  "id": "process-temp",
+  "title": "Measure process temperature",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/thermocouple-types.html",
+    "why": "Choose the thermocouple"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/temperature-reference.html",
+    "why": "Reference temperatures"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/c-to-f.html",
+    "why": "°C and °F"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/c-to-k.html",
+    "why": "°C and kelvin"
+   }
+  ]
+ },
+ {
+  "id": "recipe",
+  "title": "Convert a recipe",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/cooking-conversions.html",
+    "why": "Cups, spoons and oven settings"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/cup-us-to-ml.html",
+    "why": "Cups and milliliters"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/tbsp-us-to-ml.html",
+    "why": "Tablespoons and milliliters"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/oz-to-g.html",
+    "why": "Ounces and grams"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/f-to-c.html",
+    "why": "Oven temperature"
+   },
+   {
+    "url": "https://measurechef.com/",
+    "why": "Scale and bake with the math shown",
+    "site": "measurechef.com"
+   }
+  ]
+ },
+ {
+  "id": "tank",
+  "title": "Fill and weigh a water tank",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/calculators/water-weight.html",
+    "why": "Weight of the water"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/gal-us-to-l.html",
+    "why": "Gallons and liters"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/m3-to-gal-us.html",
+    "why": "Cubic meters and gallons"
+   },
+   {
+    "url": "https://tankvolumecalc.com/",
+    "why": "Volume of a partly filled tank",
+    "site": "tankvolumecalc.com"
+   }
+  ]
+ },
+ {
+  "id": "force",
+  "title": "Convert force and weight",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/guides/force-vs-weight.html",
+    "why": "Mass, weight and force"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/force-weight-reference.html",
+    "why": "N, lbf and kgf side by side"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/kgf-to-n.html",
+    "why": "kgf and newtons"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/lbf-to-n.html",
+    "why": "lbf and newtons"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/kg-to-lb.html",
+    "why": "Mass in kg and lb"
+   }
+  ]
+ },
+ {
+  "id": "weather",
+  "title": "Dress for the weather",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/calculators/wind-chill.html",
+    "why": "Cold with wind"
+   },
+   {
+    "url": "https://unitcheatsheet.com/calculators/heat-index.html",
+    "why": "Heat with humidity"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/temperature-reference.html",
+    "why": "Reference temperatures"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/f-to-c.html",
+    "why": "°F and °C"
+   }
+  ]
+ },
+ {
+  "id": "shaft-bore",
+  "title": "Fit a bearing on a shaft",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/bearing-sizes.html",
+    "why": "Bore and OD of the bearing"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/iso-tolerance-grades.html",
+    "why": "Tolerance for the fit"
+   },
+   {
+    "url": "https://unitcheatsheet.com/calculators/machining-rpm.html",
+    "why": "Turning speed"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/mm-to-in.html",
+    "why": "mm and inches"
+   }
+  ]
+ },
+ {
+  "id": "seal",
+  "title": "Seal a hydraulic or plumbing joint",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/o-ring-sizes.html",
+    "why": "O-ring size"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/npt-pipe-threads.html",
+    "why": "Tapered pipe threads"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/pressure-reference.html",
+    "why": "Typical system pressures"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/psi-to-bar.html",
+    "why": "psi and bar"
+   }
+  ]
+ },
+ {
+  "id": "sheet-metal",
+  "title": "Cut and fasten sheet metal",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/sheet-metal-gauge.html",
+    "why": "Gauge to thickness"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/mm-to-in.html",
+    "why": "mm and inches"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/drill-bit-sizes.html",
+    "why": "Hole sizes"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/socket-wrench-sizes.html",
+    "why": "Driver and socket sizes"
+   }
+  ]
+ },
+ {
+  "id": "wood-screw",
+  "title": "Screw into wood",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/wood-screw-pilot-holes.html",
+    "why": "Pilot and clearance holes"
+   },
+   {
+    "url": "https://unitcheatsheet.com/calculators/drill-bit-for-screw.html",
+    "why": "Drill for a given screw"
+   },
+   {
+    "url": "https://unitcheatsheet.com/cheatsheets/drill-bit-sizes.html",
+    "why": "Drill size chart"
+   },
+   {
+    "url": "https://unitcheatsheet.com/calculators/board-feet.html",
+    "why": "Lumber to order"
+   }
+  ]
+ },
+ {
+  "id": "parcel",
+  "title": "Measure a parcel for shipping",
+  "steps": [
+   {
+    "url": "https://unitcheatsheet.com/convert/in-to-cm.html",
+    "why": "Dimensions in cm or inches"
+   },
+   {
+    "url": "https://unitcheatsheet.com/convert/lb-to-kg.html",
+    "why": "Weight in kg or lb"
+   },
+   {
+    "url": "https://dimweightcalc.com/",
+    "why": "Billable weight by carrier",
+    "site": "dimweightcalc.com"
+   }
+  ]
+ }
+]

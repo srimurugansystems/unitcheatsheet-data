@@ -1,0 +1,2659 @@
+{
+ "temperature_formulas": "T/K = t/°C + 273.15; t/°C = (t/°F − 32)/1.8; T/K = (t/°F + 459.67)/1.8; °R = K × 9/5",
+ "fuel_economy_formulas": "L/100km = 235.214583333.../mpg_US = 100×3.785411784/(1.609344×mpg); = 282.480936331.../mpg_UK",
+ "units": [
+  {
+   "category": "length",
+   "unit": "mm",
+   "name": "millimeter",
+   "value_in_base": "0.001",
+   "base_unit": "m",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "length",
+   "unit": "cm",
+   "name": "centimeter",
+   "value_in_base": "0.01",
+   "base_unit": "m",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "length",
+   "unit": "m",
+   "name": "meter",
+   "value_in_base": "1",
+   "base_unit": "m",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "length",
+   "unit": "km",
+   "name": "kilometer",
+   "value_in_base": "1000",
+   "base_unit": "m",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "length",
+   "unit": "in",
+   "name": "inch",
+   "value_in_base": "0.0254",
+   "base_unit": "m",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "length",
+   "unit": "ft",
+   "name": "foot",
+   "value_in_base": "0.3048",
+   "base_unit": "m",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "length",
+   "unit": "yd",
+   "name": "yard",
+   "value_in_base": "0.9144",
+   "base_unit": "m",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "length",
+   "unit": "mi",
+   "name": "mile",
+   "value_in_base": "1609.344",
+   "base_unit": "m",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "length",
+   "unit": "nmi",
+   "name": "nautical mile",
+   "value_in_base": "1852",
+   "base_unit": "m",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8",
+    "NIST SP 811, Appendix B footnotes"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-footnotes"
+   ],
+   "note": ""
+  },
+  {
+   "category": "length",
+   "unit": "mil",
+   "name": "thousandth inch (mil)",
+   "value_in_base": "0.0000254",
+   "base_unit": "m",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "length",
+   "unit": "µm",
+   "name": "micrometer",
+   "value_in_base": "0.000001",
+   "base_unit": "m",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "mass",
+   "unit": "mg",
+   "name": "milligram",
+   "value_in_base": "0.000001",
+   "base_unit": "kg",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "mass",
+   "unit": "g",
+   "name": "gram",
+   "value_in_base": "0.001",
+   "base_unit": "kg",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "mass",
+   "unit": "kg",
+   "name": "kilogram",
+   "value_in_base": "1",
+   "base_unit": "kg",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "mass",
+   "unit": "t",
+   "name": "metric ton",
+   "value_in_base": "1000",
+   "base_unit": "kg",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8",
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "mass",
+   "unit": "oz",
+   "name": "ounce",
+   "value_in_base": "0.028349523125",
+   "base_unit": "kg",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B footnotes",
+    "NIST Handbook 44 (2026), Appendix C"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-footnotes",
+    "https://www.nist.gov/document/2026-nist-handbook-44-appendix-c"
+   ],
+   "note": "16 oz = 1 lb"
+  },
+  {
+   "category": "mass",
+   "unit": "lb",
+   "name": "pound",
+   "value_in_base": "0.45359237",
+   "base_unit": "kg",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B footnotes",
+    "NIST Handbook 44 (2026), Appendix C"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-footnotes",
+    "https://www.nist.gov/document/2026-nist-handbook-44-appendix-c"
+   ],
+   "note": ""
+  },
+  {
+   "category": "mass",
+   "unit": "st",
+   "name": "stone",
+   "value_in_base": "6.35029318",
+   "base_unit": "kg",
+   "exact": true,
+   "sources": [
+    "NIST Handbook 44 (2026), Appendix C",
+    "UK Weights and Measures Act 1985, Schedule 1"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/document/2026-nist-handbook-44-appendix-c",
+    "https://www.legislation.gov.uk/ukpga/1985/72/schedule/1/enacted"
+   ],
+   "note": "stone = 14 lb (UK)"
+  },
+  {
+   "category": "mass",
+   "unit": "ton-us",
+   "name": "short ton (US)",
+   "value_in_base": "907.18474",
+   "base_unit": "kg",
+   "exact": true,
+   "sources": [
+    "NIST Handbook 44 (2026), Appendix C"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/document/2026-nist-handbook-44-appendix-c"
+   ],
+   "note": "short ton 2000 lb"
+  },
+  {
+   "category": "mass",
+   "unit": "ton-uk",
+   "name": "long ton (UK)",
+   "value_in_base": "1016.0469088",
+   "base_unit": "kg",
+   "exact": true,
+   "sources": [
+    "NIST Handbook 44 (2026), Appendix C",
+    "UK Weights and Measures Act 1985, Schedule 1"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/document/2026-nist-handbook-44-appendix-c",
+    "https://www.legislation.gov.uk/ukpga/1985/72/schedule/1/enacted"
+   ],
+   "note": "long ton 2240 lb"
+  },
+  {
+   "category": "volume",
+   "unit": "mL",
+   "name": "milliliter",
+   "value_in_base": "0.001",
+   "base_unit": "L",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "volume",
+   "unit": "L",
+   "name": "liter",
+   "value_in_base": "1",
+   "base_unit": "L",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "volume",
+   "unit": "m³",
+   "name": "cubic meter",
+   "value_in_base": "1000",
+   "base_unit": "L",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "volume",
+   "unit": "tsp-us",
+   "name": "teaspoon (US)",
+   "value_in_base": "0.00492892159375",
+   "base_unit": "L",
+   "exact": true,
+   "sources": [
+    "NIST Handbook 44 (2026), Appendix C"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/document/2026-nist-handbook-44-appendix-c"
+   ],
+   "note": "tsp = 1/3 tbsp"
+  },
+  {
+   "category": "volume",
+   "unit": "tbsp-us",
+   "name": "tablespoon (US)",
+   "value_in_base": "0.01478676478125",
+   "base_unit": "L",
+   "exact": true,
+   "sources": [
+    "NIST Handbook 44 (2026), Appendix C"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/document/2026-nist-handbook-44-appendix-c"
+   ],
+   "note": "tbsp = 1/2 fl oz"
+  },
+  {
+   "category": "volume",
+   "unit": "floz-us",
+   "name": "fluid ounce (US)",
+   "value_in_base": "0.0295735295625",
+   "base_unit": "L",
+   "exact": true,
+   "sources": [
+    "NIST Handbook 44 (2026), Appendix C"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/document/2026-nist-handbook-44-appendix-c"
+   ],
+   "note": "128 fl oz = 1 gal"
+  },
+  {
+   "category": "volume",
+   "unit": "cup-us",
+   "name": "cup (US)",
+   "value_in_base": "0.2365882365",
+   "base_unit": "L",
+   "exact": true,
+   "sources": [
+    "NIST Handbook 44 (2026), Appendix C"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/document/2026-nist-handbook-44-appendix-c"
+   ],
+   "note": "cup = 8 fl oz (customary; US nutrition-label cup is 240 mL)"
+  },
+  {
+   "category": "volume",
+   "unit": "pt-us",
+   "name": "pint (US)",
+   "value_in_base": "0.473176473",
+   "base_unit": "L",
+   "exact": true,
+   "sources": [
+    "NIST Handbook 44 (2026), Appendix C"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/document/2026-nist-handbook-44-appendix-c"
+   ],
+   "note": ""
+  },
+  {
+   "category": "volume",
+   "unit": "qt-us",
+   "name": "quart (US)",
+   "value_in_base": "0.946352946",
+   "base_unit": "L",
+   "exact": true,
+   "sources": [
+    "NIST Handbook 44 (2026), Appendix C"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/document/2026-nist-handbook-44-appendix-c"
+   ],
+   "note": ""
+  },
+  {
+   "category": "volume",
+   "unit": "gal-us",
+   "name": "gallon (US)",
+   "value_in_base": "3.785411784",
+   "base_unit": "L",
+   "exact": true,
+   "sources": [
+    "NIST Handbook 44 (2026), Appendix C"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/document/2026-nist-handbook-44-appendix-c"
+   ],
+   "note": "231 in³"
+  },
+  {
+   "category": "volume",
+   "unit": "gal-uk",
+   "name": "gallon (UK / imperial)",
+   "value_in_base": "4.54609",
+   "base_unit": "L",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8",
+    "UK Weights and Measures Act 1985, Schedule 1"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+    "https://www.legislation.gov.uk/ukpga/1985/72/schedule/1/enacted"
+   ],
+   "note": ""
+  },
+  {
+   "category": "volume",
+   "unit": "in³",
+   "name": "cubic inch",
+   "value_in_base": "0.016387064",
+   "base_unit": "L",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B footnotes"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-footnotes"
+   ],
+   "note": ""
+  },
+  {
+   "category": "volume",
+   "unit": "ft³",
+   "name": "cubic foot",
+   "value_in_base": "28.316846592",
+   "base_unit": "L",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "volume",
+   "unit": "cm³",
+   "name": "cm³",
+   "value_in_base": "0.001",
+   "base_unit": "L",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "pressure",
+   "unit": "Pa",
+   "name": "pascal",
+   "value_in_base": "1",
+   "base_unit": "Pa",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "pressure",
+   "unit": "kPa",
+   "name": "kilopascal",
+   "value_in_base": "1000",
+   "base_unit": "Pa",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "pressure",
+   "unit": "MPa",
+   "name": "megapascal",
+   "value_in_base": "1000000",
+   "base_unit": "Pa",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "pressure",
+   "unit": "bar",
+   "name": "bar",
+   "value_in_base": "100000",
+   "base_unit": "Pa",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "pressure",
+   "unit": "mbar",
+   "name": "millibar",
+   "value_in_base": "100",
+   "base_unit": "Pa",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "pressure",
+   "unit": "psi",
+   "name": "pound-force per square inch",
+   "value_in_base": "6894.757293168361336722673",
+   "base_unit": "Pa",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8",
+    "NIST SP 811, Appendix B footnotes"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-footnotes"
+   ],
+   "note": ""
+  },
+  {
+   "category": "pressure",
+   "unit": "ksi",
+   "name": "kilopound per square inch",
+   "value_in_base": "6894757.293168361336722673",
+   "base_unit": "Pa",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "pressure",
+   "unit": "atm",
+   "name": "standard atmosphere",
+   "value_in_base": "101325",
+   "base_unit": "Pa",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "pressure",
+   "unit": "torr",
+   "name": "torr",
+   "value_in_base": "133.3223684210526315789474",
+   "base_unit": "Pa",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Chapter 5"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-5-units-outside-si"
+   ],
+   "note": "1 Torr = 101325/760 Pa exactly; mmHg(conv) = 133.322387415 Pa differs by 1.4e-7"
+  },
+  {
+   "category": "pressure",
+   "unit": "inHg",
+   "name": "inch of mercury (conventional, 0 °C)",
+   "value_in_base": "3386.388640341",
+   "base_unit": "Pa",
+   "exact": false,
+   "sources": [
+    "NIST SP 811, Appendix B.8",
+    "NIST SP 811, Appendix B footnotes"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-footnotes"
+   ],
+   "note": "conventional inHg (13595.1 kg/m³ × gn × 1 in); B.8 3386.389. Also 32°F 3386.38, 60°F 3376.85"
+  },
+  {
+   "category": "pressure",
+   "unit": "inH2O",
+   "name": "inch of water column (conventional)",
+   "value_in_base": "249.08891",
+   "base_unit": "Pa",
+   "exact": false,
+   "sources": [
+    "NIST SP 811, Appendix B.8",
+    "NIST SP 811, Appendix B footnotes"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-footnotes"
+   ],
+   "note": "conventional inH2O 249.0889 (1000 kg/m³ × gn); also 39.2°F 249.082, 60°F 248.84"
+  },
+  {
+   "category": "pressure",
+   "unit": "mmH2O",
+   "name": "mm of water column (conventional)",
+   "value_in_base": "9.80665",
+   "base_unit": "Pa",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": "conventional mmH2O 9.80665 (bold/exact in B.8)"
+  },
+  {
+   "category": "pressure",
+   "unit": "mmHg",
+   "name": "mmHg",
+   "value_in_base": "133.322387415",
+   "base_unit": "Pa",
+   "exact": false,
+   "sources": [
+    "NIST SP 811, Appendix B.8",
+    "NIST SP 811, Appendix B footnotes"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-footnotes"
+   ],
+   "note": "conventional mmHg 133.3224 (B.8)"
+  },
+  {
+   "category": "energy",
+   "unit": "J",
+   "name": "joule",
+   "value_in_base": "1",
+   "base_unit": "J",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "energy",
+   "unit": "kJ",
+   "name": "kilojoule",
+   "value_in_base": "1000",
+   "base_unit": "J",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "energy",
+   "unit": "MJ",
+   "name": "megajoule",
+   "value_in_base": "1000000",
+   "base_unit": "J",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "energy",
+   "unit": "cal",
+   "name": "calorie (thermochemical)",
+   "value_in_base": "4.184",
+   "base_unit": "J",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8",
+    "NIST SP 811, Appendix B footnotes"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-footnotes"
+   ],
+   "note": "thermochemical; cal_IT = 4.1868"
+  },
+  {
+   "category": "energy",
+   "unit": "kcal",
+   "name": "kilocalorie (food cal)",
+   "value_in_base": "4184",
+   "base_unit": "J",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8",
+    "NIST SP 811, Appendix B footnotes"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-footnotes"
+   ],
+   "note": "thermochemical kcal; kcal_IT = 4186.8"
+  },
+  {
+   "category": "energy",
+   "unit": "Wh",
+   "name": "watt-hour",
+   "value_in_base": "3600",
+   "base_unit": "J",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "energy",
+   "unit": "kWh",
+   "name": "kilowatt-hour",
+   "value_in_base": "3600000",
+   "base_unit": "J",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "energy",
+   "unit": "BTU",
+   "name": "BTU (International Table)",
+   "value_in_base": "1055.05585262",
+   "base_unit": "J",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B footnotes"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-footnotes"
+   ],
+   "note": "BTU_IT; Btu_th 1054.350, mean 1055.87, 39°F 1059.67, 59°F 1054.80, 60°F 1054.68"
+  },
+  {
+   "category": "energy",
+   "unit": "eV",
+   "name": "electron-volt",
+   "value_in_base": "1.602176634E-19",
+   "base_unit": "J",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "energy",
+   "unit": "ft·lbf",
+   "name": "foot-pound (force)",
+   "value_in_base": "1.3558179483314004",
+   "base_unit": "J",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B footnotes"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-footnotes"
+   ],
+   "note": ""
+  },
+  {
+   "category": "power",
+   "unit": "W",
+   "name": "watt",
+   "value_in_base": "1",
+   "base_unit": "W",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "power",
+   "unit": "kW",
+   "name": "kilowatt",
+   "value_in_base": "1000",
+   "base_unit": "W",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "power",
+   "unit": "MW",
+   "name": "megawatt",
+   "value_in_base": "1000000",
+   "base_unit": "W",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "power",
+   "unit": "hp",
+   "name": "horsepower (mechanical)",
+   "value_in_base": "745.69987158227022",
+   "base_unit": "W",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8",
+    "NIST SP 811, Appendix B footnotes"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-footnotes"
+   ],
+   "note": "mechanical; electric 746, boiler 9809.5, metric 735.4988, UK 745.7"
+  },
+  {
+   "category": "power",
+   "unit": "hp-m",
+   "name": "metric horsepower",
+   "value_in_base": "735.49875",
+   "base_unit": "W",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": "exact 75 kgf·m/s definition not stated on the fetched NIST pages"
+  },
+  {
+   "category": "power",
+   "unit": "BTU/h",
+   "name": "BTU per hour",
+   "value_in_base": "0.2930710701722222222222222",
+   "base_unit": "W",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8",
+    "NIST SP 811, Appendix B footnotes"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-footnotes"
+   ],
+   "note": ""
+  },
+  {
+   "category": "power",
+   "unit": "ton",
+   "name": "ton of refrigeration",
+   "value_in_base": "3516.852842066666666666667",
+   "base_unit": "W",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8",
+    "NIST SP 811, Appendix B footnotes"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-footnotes"
+   ],
+   "note": ""
+  },
+  {
+   "category": "power",
+   "unit": "PS",
+   "name": "PS",
+   "value_in_base": "735.49875",
+   "base_unit": "W",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": "metric hp"
+  },
+  {
+   "category": "force",
+   "unit": "N",
+   "name": "newton",
+   "value_in_base": "1",
+   "base_unit": "N",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "force",
+   "unit": "kN",
+   "name": "kilonewton",
+   "value_in_base": "1000",
+   "base_unit": "N",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "force",
+   "unit": "lbf",
+   "name": "pound-force",
+   "value_in_base": "4.4482216152605",
+   "base_unit": "N",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B footnotes"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-footnotes"
+   ],
+   "note": ""
+  },
+  {
+   "category": "force",
+   "unit": "kgf",
+   "name": "kilogram-force",
+   "value_in_base": "9.80665",
+   "base_unit": "N",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8",
+    "NIST SP 811, Chapter 5"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-5-units-outside-si"
+   ],
+   "note": ""
+  },
+  {
+   "category": "force",
+   "unit": "dyn",
+   "name": "dyne",
+   "value_in_base": "0.00001",
+   "base_unit": "N",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "force",
+   "unit": "ozf",
+   "name": "ounce-force",
+   "value_in_base": "0.27801385095378125",
+   "base_unit": "N",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "speed",
+   "unit": "m/s",
+   "name": "meters per second",
+   "value_in_base": "1",
+   "base_unit": "m/s",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "speed",
+   "unit": "km/h",
+   "name": "kilometers per hour",
+   "value_in_base": "0.2777777777777777777777778",
+   "base_unit": "m/s",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "speed",
+   "unit": "mph",
+   "name": "miles per hour",
+   "value_in_base": "0.44704",
+   "base_unit": "m/s",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "speed",
+   "unit": "ft/s",
+   "name": "feet per second",
+   "value_in_base": "0.3048",
+   "base_unit": "m/s",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "speed",
+   "unit": "kn",
+   "name": "knot",
+   "value_in_base": "0.5144444444444444444444444",
+   "base_unit": "m/s",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8",
+    "NIST SP 811, Appendix B footnotes"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-footnotes"
+   ],
+   "note": ""
+  },
+  {
+   "category": "speed",
+   "unit": "Mach",
+   "name": "Mach (sea level, ISA 15°C)",
+   "value_in_base": "340.294",
+   "base_unit": "m/s",
+   "exact": false,
+   "sources": [],
+   "source_urls": [],
+   "note": "no official definition; ISA sea-level speed of sound 340.294 m/s (ICAO/ISO 2533, not in allowed sources)"
+  },
+  {
+   "category": "area",
+   "unit": "mm²",
+   "name": "square millimeter",
+   "value_in_base": "0.000001",
+   "base_unit": "m²",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "area",
+   "unit": "cm²",
+   "name": "square centimeter",
+   "value_in_base": "0.0001",
+   "base_unit": "m²",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "area",
+   "unit": "m²",
+   "name": "square meter",
+   "value_in_base": "1",
+   "base_unit": "m²",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "area",
+   "unit": "km²",
+   "name": "square kilometer",
+   "value_in_base": "1000000",
+   "base_unit": "m²",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "area",
+   "unit": "in²",
+   "name": "square inch",
+   "value_in_base": "0.00064516",
+   "base_unit": "m²",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "area",
+   "unit": "ft²",
+   "name": "square foot",
+   "value_in_base": "0.09290304",
+   "base_unit": "m²",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "area",
+   "unit": "yd²",
+   "name": "square yard",
+   "value_in_base": "0.83612736",
+   "base_unit": "m²",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "area",
+   "unit": "acre",
+   "name": "acre (international)",
+   "value_in_base": "4046.8564224",
+   "base_unit": "m²",
+   "exact": true,
+   "sources": [
+    "NIST Handbook 44 (2026), Appendix C"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/document/2026-nist-handbook-44-appendix-c"
+   ],
+   "note": "international acre 4046.8564224; SP 811 (2008) lists survey acre 4046.873 (survey foot deprecated 2023-01-01 per HB44)"
+  },
+  {
+   "category": "area",
+   "unit": "ha",
+   "name": "hectare",
+   "value_in_base": "10000",
+   "base_unit": "m²",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "time",
+   "unit": "ms",
+   "name": "millisecond",
+   "value_in_base": "0.001",
+   "base_unit": "s",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "time",
+   "unit": "s",
+   "name": "second",
+   "value_in_base": "1",
+   "base_unit": "s",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "time",
+   "unit": "min",
+   "name": "minute",
+   "value_in_base": "60",
+   "base_unit": "s",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "time",
+   "unit": "h",
+   "name": "hour",
+   "value_in_base": "3600",
+   "base_unit": "s",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "time",
+   "unit": "d",
+   "name": "day",
+   "value_in_base": "86400",
+   "base_unit": "s",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "time",
+   "unit": "wk",
+   "name": "week",
+   "value_in_base": "604800",
+   "base_unit": "s",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "time",
+   "unit": "mo",
+   "name": "month (30 d)",
+   "value_in_base": "2592000",
+   "base_unit": "s",
+   "exact": false,
+   "sources": [],
+   "source_urls": [],
+   "note": "no official month; 30 d convention (other: 365/12 d = 30.4167 d, 365.2425/12 d)"
+  },
+  {
+   "category": "time",
+   "unit": "yr",
+   "name": "year (365 d)",
+   "value_in_base": "31536000",
+   "base_unit": "s",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": "also sidereal 31558150, tropical 31556930, Julian 365.25 d"
+  },
+  {
+   "category": "data",
+   "unit": "b",
+   "name": "bit",
+   "value_in_base": "0.125",
+   "base_unit": "B",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "data",
+   "unit": "B",
+   "name": "byte",
+   "value_in_base": "1",
+   "base_unit": "B",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "data",
+   "unit": "KB",
+   "name": "kilobyte (1000)",
+   "value_in_base": "1000",
+   "base_unit": "B",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": "decimal"
+  },
+  {
+   "category": "data",
+   "unit": "KiB",
+   "name": "kibibyte (1024)",
+   "value_in_base": "1024",
+   "base_unit": "B",
+   "exact": true,
+   "sources": [
+    "NIST, prefixes for binary multiples"
+   ],
+   "source_urls": [
+    "https://physics.nist.gov/cuu/Units/binary.html"
+   ],
+   "note": ""
+  },
+  {
+   "category": "data",
+   "unit": "MB",
+   "name": "megabyte (1000²)",
+   "value_in_base": "1000000",
+   "base_unit": "B",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": "decimal"
+  },
+  {
+   "category": "data",
+   "unit": "MiB",
+   "name": "mebibyte (1024²)",
+   "value_in_base": "1048576",
+   "base_unit": "B",
+   "exact": true,
+   "sources": [
+    "NIST, prefixes for binary multiples"
+   ],
+   "source_urls": [
+    "https://physics.nist.gov/cuu/Units/binary.html"
+   ],
+   "note": ""
+  },
+  {
+   "category": "data",
+   "unit": "GB",
+   "name": "gigabyte (1000³)",
+   "value_in_base": "1000000000",
+   "base_unit": "B",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": "decimal"
+  },
+  {
+   "category": "data",
+   "unit": "GiB",
+   "name": "gibibyte (1024³)",
+   "value_in_base": "1073741824",
+   "base_unit": "B",
+   "exact": true,
+   "sources": [
+    "NIST, prefixes for binary multiples"
+   ],
+   "source_urls": [
+    "https://physics.nist.gov/cuu/Units/binary.html"
+   ],
+   "note": ""
+  },
+  {
+   "category": "data",
+   "unit": "TB",
+   "name": "terabyte",
+   "value_in_base": "1000000000000",
+   "base_unit": "B",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": "decimal"
+  },
+  {
+   "category": "data",
+   "unit": "TiB",
+   "name": "tebibyte",
+   "value_in_base": "1099511627776",
+   "base_unit": "B",
+   "exact": true,
+   "sources": [
+    "NIST, prefixes for binary multiples"
+   ],
+   "source_urls": [
+    "https://physics.nist.gov/cuu/Units/binary.html"
+   ],
+   "note": ""
+  },
+  {
+   "category": "angle",
+   "unit": "rad",
+   "name": "radian",
+   "value_in_base": "1",
+   "base_unit": "rad",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "angle",
+   "unit": "deg",
+   "name": "degree",
+   "value_in_base": "0.01745329251994329576923691",
+   "base_unit": "rad",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "angle",
+   "unit": "grad",
+   "name": "gradian",
+   "value_in_base": "0.01570796326794896619231322",
+   "base_unit": "rad",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "angle",
+   "unit": "arcmin",
+   "name": "arcminute",
+   "value_in_base": "0.0002908882086657215961539485",
+   "base_unit": "rad",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "angle",
+   "unit": "arcsec",
+   "name": "arcsecond",
+   "value_in_base": "0.000004848136811095359935899141",
+   "base_unit": "rad",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "angle",
+   "unit": "rev",
+   "name": "revolution / turn",
+   "value_in_base": "6.283185307179586476925287",
+   "base_unit": "rad",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "frequency",
+   "unit": "Hz",
+   "name": "hertz",
+   "value_in_base": "1",
+   "base_unit": "Hz",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "frequency",
+   "unit": "kHz",
+   "name": "kilohertz",
+   "value_in_base": "1000",
+   "base_unit": "Hz",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "frequency",
+   "unit": "MHz",
+   "name": "megahertz",
+   "value_in_base": "1000000",
+   "base_unit": "Hz",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "frequency",
+   "unit": "GHz",
+   "name": "gigahertz",
+   "value_in_base": "1000000000",
+   "base_unit": "Hz",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "frequency",
+   "unit": "rpm",
+   "name": "revolutions per minute",
+   "value_in_base": "0.01666666666666666666666667",
+   "base_unit": "Hz",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": "1 rpm = 1/60 rev/s"
+  },
+  {
+   "category": "frequency",
+   "unit": "rad/s",
+   "name": "radians per second",
+   "value_in_base": "0.1591549430918953357688838",
+   "base_unit": "Hz",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": "SI Brochure warns frequency (Hz) and angular frequency (rad/s) must not be mixed"
+  },
+  {
+   "category": "torque",
+   "unit": "N·m",
+   "name": "newton-meter",
+   "value_in_base": "1",
+   "base_unit": "N·m",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "torque",
+   "unit": "N·cm",
+   "name": "newton-centimeter",
+   "value_in_base": "0.01",
+   "base_unit": "N·m",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "torque",
+   "unit": "kN·m",
+   "name": "kilonewton-meter",
+   "value_in_base": "1000",
+   "base_unit": "N·m",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "torque",
+   "unit": "kgf·m",
+   "name": "kilogram-force meter",
+   "value_in_base": "9.80665",
+   "base_unit": "N·m",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "torque",
+   "unit": "kgf·cm",
+   "name": "kilogram-force cm",
+   "value_in_base": "0.0980665",
+   "base_unit": "N·m",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "torque",
+   "unit": "lbf·ft",
+   "name": "pound-foot",
+   "value_in_base": "1.3558179483314004",
+   "base_unit": "N·m",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "torque",
+   "unit": "lbf·in",
+   "name": "pound-inch",
+   "value_in_base": "0.1129848290276167",
+   "base_unit": "N·m",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "torque",
+   "unit": "ozf·in",
+   "name": "ounce-inch",
+   "value_in_base": "0.00706155181422604375",
+   "base_unit": "N·m",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "torque",
+   "unit": "dyn·cm",
+   "name": "dyne-centimeter",
+   "value_in_base": "1E-7",
+   "base_unit": "N·m",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "density",
+   "unit": "kg/m³",
+   "name": "kilogram per cubic meter",
+   "value_in_base": "1",
+   "base_unit": "kg/m³",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "density",
+   "unit": "g/cm³",
+   "name": "gram per cubic centimeter",
+   "value_in_base": "1000",
+   "base_unit": "kg/m³",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "density",
+   "unit": "g/mL",
+   "name": "gram per milliliter",
+   "value_in_base": "1000",
+   "base_unit": "kg/m³",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "density",
+   "unit": "kg/L",
+   "name": "kilogram per liter",
+   "value_in_base": "1000",
+   "base_unit": "kg/m³",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "density",
+   "unit": "g/L",
+   "name": "gram per liter",
+   "value_in_base": "1",
+   "base_unit": "kg/m³",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "density",
+   "unit": "lb/ft³",
+   "name": "pound per cubic foot",
+   "value_in_base": "16.01846337396013957965507",
+   "base_unit": "kg/m³",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "density",
+   "unit": "lb/in³",
+   "name": "pound per cubic inch",
+   "value_in_base": "27679.90471020312119364396",
+   "base_unit": "kg/m³",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "density",
+   "unit": "lb/gal-us",
+   "name": "pound per US gallon",
+   "value_in_base": "119.8264273168966285439133",
+   "base_unit": "kg/m³",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "density",
+   "unit": "lb/gal-uk",
+   "name": "pound per imperial gallon",
+   "value_in_base": "99.77637266310169838256612",
+   "base_unit": "kg/m³",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "density",
+   "unit": "oz/in³",
+   "name": "ounce per cubic inch",
+   "value_in_base": "1729.994044387695074602748",
+   "base_unit": "kg/m³",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "density",
+   "unit": "slug/ft³",
+   "name": "slug per cubic foot",
+   "value_in_base": "515.3788183931962034410249",
+   "base_unit": "kg/m³",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "flow",
+   "unit": "m³/s",
+   "name": "cubic meter per second",
+   "value_in_base": "1",
+   "base_unit": "m³/s",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "flow",
+   "unit": "m³/h",
+   "name": "cubic meter per hour",
+   "value_in_base": "0.0002777777777777777777777778",
+   "base_unit": "m³/s",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "flow",
+   "unit": "L/s",
+   "name": "liter per second",
+   "value_in_base": "0.001",
+   "base_unit": "m³/s",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "flow",
+   "unit": "L/min",
+   "name": "liter per minute",
+   "value_in_base": "0.00001666666666666666666666667",
+   "base_unit": "m³/s",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "flow",
+   "unit": "L/h",
+   "name": "liter per hour",
+   "value_in_base": "2.777777777777777777777778e-7",
+   "base_unit": "m³/s",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "flow",
+   "unit": "mL/min",
+   "name": "milliliter per minute",
+   "value_in_base": "1.666666666666666666666667e-8",
+   "base_unit": "m³/s",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "flow",
+   "unit": "cfm",
+   "name": "cubic feet per minute",
+   "value_in_base": "0.0004719474432",
+   "base_unit": "m³/s",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "flow",
+   "unit": "cfs",
+   "name": "cubic feet per second",
+   "value_in_base": "0.028316846592",
+   "base_unit": "m³/s",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "flow",
+   "unit": "cfh",
+   "name": "cubic feet per hour",
+   "value_in_base": "0.00000786579072",
+   "base_unit": "m³/s",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "flow",
+   "unit": "gpm-us",
+   "name": "gallon (US) per minute",
+   "value_in_base": "0.0000630901964",
+   "base_unit": "m³/s",
+   "exact": true,
+   "sources": [
+    "NIST Handbook 44 (2026), Appendix C"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/document/2026-nist-handbook-44-appendix-c"
+   ],
+   "note": ""
+  },
+  {
+   "category": "flow",
+   "unit": "gph-us",
+   "name": "gallon (US) per hour",
+   "value_in_base": "0.000001051503273333333333333333",
+   "base_unit": "m³/s",
+   "exact": true,
+   "sources": [
+    "NIST Handbook 44 (2026), Appendix C"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/document/2026-nist-handbook-44-appendix-c"
+   ],
+   "note": ""
+  },
+  {
+   "category": "flow",
+   "unit": "gpm-uk",
+   "name": "gallon (UK) per minute",
+   "value_in_base": "0.00007576816666666666666666667",
+   "base_unit": "m³/s",
+   "exact": true,
+   "sources": [
+    "UK Weights and Measures Act 1985, Schedule 1"
+   ],
+   "source_urls": [
+    "https://www.legislation.gov.uk/ukpga/1985/72/schedule/1/enacted"
+   ],
+   "note": ""
+  },
+  {
+   "category": "flow",
+   "unit": "bbl/d",
+   "name": "oil barrel per day",
+   "value_in_base": "0.000001840130728333333333333333",
+   "base_unit": "m³/s",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "acceleration",
+   "unit": "m/s²",
+   "name": "meter per second squared",
+   "value_in_base": "1",
+   "base_unit": "m/s²",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "acceleration",
+   "unit": "cm/s²",
+   "name": "cm per second squared",
+   "value_in_base": "0.01",
+   "base_unit": "m/s²",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "acceleration",
+   "unit": "ft/s²",
+   "name": "foot per second squared",
+   "value_in_base": "0.3048",
+   "base_unit": "m/s²",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "acceleration",
+   "unit": "in/s²",
+   "name": "inch per second squared",
+   "value_in_base": "0.0254",
+   "base_unit": "m/s²",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "acceleration",
+   "unit": "g",
+   "name": "gram",
+   "value_in_base": "9.80665",
+   "base_unit": "m/s²",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "acceleration",
+   "unit": "gal",
+   "name": "galileo (gal, cm/s²)",
+   "value_in_base": "0.01",
+   "base_unit": "m/s²",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "acceleration",
+   "unit": "mg-acc",
+   "name": "milli-g (1/1000 g)",
+   "value_in_base": "0.00980665",
+   "base_unit": "m/s²",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "acceleration",
+   "unit": "km/h/s",
+   "name": "km/h per second",
+   "value_in_base": "0.2777777777777777777777778",
+   "base_unit": "m/s²",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "acceleration",
+   "unit": "mph/s",
+   "name": "mph per second",
+   "value_in_base": "0.44704",
+   "base_unit": "m/s²",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "viscosity",
+   "unit": "Pa·s",
+   "name": "pascal-second",
+   "value_in_base": "1",
+   "base_unit": "Pa·s",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "viscosity",
+   "unit": "mPa·s",
+   "name": "millipascal-second",
+   "value_in_base": "0.001",
+   "base_unit": "Pa·s",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "viscosity",
+   "unit": "P",
+   "name": "poise",
+   "value_in_base": "0.1",
+   "base_unit": "Pa·s",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "viscosity",
+   "unit": "cP",
+   "name": "centipoise",
+   "value_in_base": "0.001",
+   "base_unit": "Pa·s",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "viscosity",
+   "unit": "kg/(m·s)",
+   "name": "kg per meter-second",
+   "value_in_base": "1",
+   "base_unit": "Pa·s",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "viscosity",
+   "unit": "lbf·s/ft²",
+   "name": "pound-force·s / ft²",
+   "value_in_base": "47.88025898033584261612968",
+   "base_unit": "Pa·s",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "viscosity",
+   "unit": "lbf·s/in²",
+   "name": "reyn (lbf·s / in²)",
+   "value_in_base": "6894.757293168361336722673",
+   "base_unit": "Pa·s",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "viscosity",
+   "unit": "lb/(ft·s)",
+   "name": "pound per foot-second",
+   "value_in_base": "1.488163943569553805774278",
+   "base_unit": "Pa·s",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "luminance",
+   "unit": "lx",
+   "name": "lux (lumen / m²)",
+   "value_in_base": "1",
+   "base_unit": "lx",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "luminance",
+   "unit": "fc",
+   "name": "foot-candle (lumen / ft²)",
+   "value_in_base": "10.76391041670972230833351",
+   "base_unit": "lx",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "luminance",
+   "unit": "ph",
+   "name": "phot (lumen / cm²)",
+   "value_in_base": "10000",
+   "base_unit": "lx",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "luminance",
+   "unit": "nox",
+   "name": "nox (1/1000 lux)",
+   "value_in_base": "0.001",
+   "base_unit": "lx",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "luminance",
+   "unit": "lm/m²",
+   "name": "lumen per m² (= lux)",
+   "value_in_base": "1",
+   "base_unit": "lx",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "luminance",
+   "unit": "lm/ft²",
+   "name": "lumen per ft²",
+   "value_in_base": "10.76391041670972230833351",
+   "base_unit": "lx",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "concentration",
+   "unit": "mg/L",
+   "name": "milligram per liter",
+   "value_in_base": "1",
+   "base_unit": "mg/L",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "concentration",
+   "unit": "µg/L",
+   "name": "microgram per liter",
+   "value_in_base": "0.001",
+   "base_unit": "mg/L",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "concentration",
+   "unit": "g/L",
+   "name": "gram per liter",
+   "value_in_base": "1000",
+   "base_unit": "mg/L",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "concentration",
+   "unit": "kg/L",
+   "name": "kilogram per liter",
+   "value_in_base": "1000000",
+   "base_unit": "mg/L",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "concentration",
+   "unit": "ppm",
+   "name": "parts per million (mg/L in water)",
+   "value_in_base": "1",
+   "base_unit": "mg/L",
+   "exact": false,
+   "sources": [],
+   "source_urls": [],
+   "note": "ppm = mg/L only for dilute aqueous solutions (density 1 kg/L); SP 811 discourages ppm"
+  },
+  {
+   "category": "concentration",
+   "unit": "ppb",
+   "name": "parts per billion (µg/L in water)",
+   "value_in_base": "0.001",
+   "base_unit": "mg/L",
+   "exact": false,
+   "sources": [],
+   "source_urls": [],
+   "note": "as ppm"
+  },
+  {
+   "category": "concentration",
+   "unit": "ppt",
+   "name": "parts per trillion (ng/L)",
+   "value_in_base": "0.000001",
+   "base_unit": "mg/L",
+   "exact": false,
+   "sources": [],
+   "source_urls": [],
+   "note": "ppt ambiguous (trillion vs thousand)"
+  },
+  {
+   "category": "concentration",
+   "unit": "%w/v",
+   "name": "percent weight/volume (g/100mL)",
+   "value_in_base": "10000",
+   "base_unit": "mg/L",
+   "exact": true,
+   "sources": [],
+   "source_urls": [],
+   "note": ""
+  },
+  {
+   "category": "concentration",
+   "unit": "g/100mL",
+   "name": "gram per 100 mL",
+   "value_in_base": "10000",
+   "base_unit": "mg/L",
+   "exact": true,
+   "sources": [
+    "BIPM SI Brochure, 9th ed."
+   ],
+   "source_urls": [
+    "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf"
+   ],
+   "note": ""
+  },
+  {
+   "category": "concentration",
+   "unit": "oz/gal-us",
+   "name": "ounce per US gallon (mass)",
+   "value_in_base": "7489.151707306039283994578",
+   "base_unit": "mg/L",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  },
+  {
+   "category": "concentration",
+   "unit": "gr/gal-us",
+   "name": "grain per US gallon",
+   "value_in_base": "17.11806104527094693484475",
+   "base_unit": "mg/L",
+   "exact": true,
+   "sources": [
+    "NIST SP 811, Appendix B.8"
+   ],
+   "source_urls": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+   ],
+   "note": ""
+  }
+ ]
+}

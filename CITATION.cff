@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+title: "unitcheatsheet.com open data"
+type: dataset
+authors:
+  - name: "Sri Murugan Systems"
+version: "2026-11-07"
+date-released: "2026-11-07"
+license: CC-BY-4.0
+url: "https://unitcheatsheet.com/data.html"

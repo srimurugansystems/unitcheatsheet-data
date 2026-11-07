@@ -1,0 +1,142 @@
+{
+ "name": "unitcheatsheet-open-data",
+ "title": "unitcheatsheet.com open data",
+ "homepage": "https://unitcheatsheet.com/data.html",
+ "version": "2026-11-07",
+ "licenses": [
+  {
+   "name": "CC-BY-4.0",
+   "path": "https://creativecommons.org/licenses/by/4.0/",
+   "title": "Creative Commons Attribution 4.0"
+  }
+ ],
+ "contributors": [
+  {
+   "title": "Sri Murugan Systems",
+   "path": "https://www.srimurugansystems.com/",
+   "role": "author"
+  }
+ ],
+ "resources": [
+  {
+   "name": "units",
+   "path": "units.csv",
+   "title": "Units and their definitions",
+   "description": "Every unit with a fixed factor: its value in the base unit of its category, whether the definition is exact, and the official source. The temperature scales and fuel-economy units are defined by formulas, given in units.json.",
+   "format": "csv",
+   "sources": [
+    {
+     "title": "NIST SP 811, NIST Handbook 44, BIPM SI Brochure, NIST binary prefixes, UK Weights and Measures Act 1985"
+    }
+   ]
+  },
+  {
+   "name": "conversions",
+   "path": "conversions.csv",
+   "title": "Converter factors",
+   "description": "One row per converter page: multiply the 'from' value by the factor to get the 'to' value. Temperature pairs use the formulas in units.json.",
+   "format": "csv",
+   "sources": [
+    {
+     "title": "Derived with exact arithmetic from units.csv"
+    }
+   ]
+  },
+  {
+   "name": "conversion-values",
+   "path": "conversion-values.csv",
+   "title": "Common conversion values",
+   "description": "The values that have their own page on the site (for example 37 °C in °F), converted with the factors above.",
+   "format": "csv",
+   "sources": [
+    {
+     "title": "Computed from conversions.csv"
+    }
+   ]
+  },
+  {
+   "name": "awg",
+   "path": "awg.csv",
+   "title": "AWG wire geometry",
+   "description": "Diameter and cross-section of American Wire Gauge sizes 4/0 to 40, from the defining formula d = 0.005 in × 92^((36 − n)/39) (ASTM B258). Ampacity is not included.",
+   "format": "csv",
+   "sources": [
+    {
+     "title": "Computed from the AWG formula (ASTM B258)"
+    }
+   ]
+  },
+  {
+   "name": "npt-threads",
+   "path": "npt-threads.csv",
+   "title": "NPT pipe thread basic dimensions",
+   "description": "American Standard taper pipe threads (NPT): threads per inch, outside diameter, pitch diameters E0 and E1, hand-tight engagement L1 and effective thread length L2, in inches.",
+   "format": "csv",
+   "sources": [
+    {
+     "title": "NBS Handbook H28 (1957), Part II, Table VII.2 (US government publication, public domain); checked 7 November 2026"
+    }
+   ]
+  },
+  {
+   "name": "water-density",
+   "path": "water-density.csv",
+   "title": "Density of pure water, 0–40 °C",
+   "description": "Density of air-free pure water at 101.325 kPa and the weight of one US gallon, from the CIPM-recommended formula.",
+   "format": "csv",
+   "sources": [
+    {
+     "title": "CIPM formula, Tanaka et al., Metrologia 38 (2001) 301–309, as published by NIST"
+    }
+   ]
+  },
+  {
+   "name": "boiling-point-altitude",
+   "path": "boiling-point-altitude.csv",
+   "title": "Boiling point of water by altitude",
+   "description": "Standard-atmosphere pressure and the boiling point of pure water from sea level to 8,849 m.",
+   "format": "csv",
+   "sources": [
+    {
+     "title": "IAPWS R7-97(2012) Region 4 equation; U.S. Standard Atmosphere, 1976"
+    }
+   ]
+  },
+  {
+   "name": "wind-chill",
+   "path": "wind-chill.csv",
+   "title": "Wind chill table",
+   "description": "Wind chill temperature in °F for air temperatures from 40 °F to −45 °F and wind speeds from 5 to 60 mph.",
+   "format": "csv",
+   "sources": [
+    {
+     "title": "National Weather Service wind chill formula (2001)"
+    }
+   ]
+  },
+  {
+   "name": "tasks",
+   "path": "tasks.json",
+   "title": "Task paths",
+   "description": "Common engineering jobs as ordered steps across the site's pages.",
+   "format": "json",
+   "sources": [
+    {
+     "title": "unitcheatsheet.com"
+    }
+   ]
+  },
+  {
+   "name": "verification",
+   "path": "verification.json",
+   "title": "Verification records",
+   "description": "What was checked against which official source, when, for which pages.",
+   "format": "json",
+   "sources": [
+    {
+     "title": "unitcheatsheet.com"
+    }
+   ]
+  }
+ ]
+}
