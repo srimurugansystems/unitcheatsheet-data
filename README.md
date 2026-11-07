@@ -2,6 +2,8 @@
 
 Unit definitions, conversion factors and engineering tables behind [unitcheatsheet.com](https://unitcheatsheet.com/), generated from the same data and formulas the site uses.
 
+Latest files: https://unitcheatsheet.com/data.html · Version history: https://github.com/srimurugansystems/unitcheatsheet-data/commits/main
+
 **Licence:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Attribution: "unitcheatsheet.com open data (https://unitcheatsheet.com/data.html), CC BY 4.0".
 
 | File | What it holds | Rows | Source |
